@@ -1,0 +1,20 @@
+const = "Constants are like variables, except that their values cannot be changed"
+
+fmt.Print() -> 
+// 
+fmt.Println() -> "Prints a new line at the end by default"
+	- 
+// 
+fmt.Printf() -> "Formats the string and sends them to the screen"
+
+	- fmt.printf("Some text with a variable %s", myVariable)
+	- It takes a template string that contains the text that needs to be formatted
+	- Plus some annotation verbs (or placeholder) that tells the fmt functions how to format the variable passed in 
+// 
+Data Type	 Format Specifier
+
+integer			  %d
+float 			  %g 
+string			  %s 
+bool			  %t 
+
